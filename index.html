@@ -1,20 +1,55 @@
-<doc
+<!doctype>
 <html>
 <head>
+<meta charset="UTF-8">
 <title>Hello</title>
 
 <style>
-#headerBG {
-	width:100%;
-	height:auto;
+#bosy {
+	width:1000px;
+	margin:0 auto;
+	}
+#imgbg {
+	margin:0 auto;
+	width:1000px;
+	height:200px;
+	background:url("headerBgimg.jpg") no-repeat;
+	background-size:100% 100%;
+	min-height:200px;
+	}
+
+#chengxuyuan {
+	margin-top:120px;
+	margin-left:-80px;
+	float:left;
+	width:80px;
+	}
+#icon {
+	float:left;
+	margin-left:40px;
+	margin-top:40px;
+	width:80px;
+	width:80px;
+	}
+	#titleH {
+	margin-top:0px;
+	margin-left:120px;
+	width:760px;
+	height:120px;
+	line-height:120px;
+	color:red;
 	}
 </style>
 </head>
 
 
-<body>
+<body id="bosy">
 <header>
-<img id="headerBG" src="headerBgimg.jpg"/>
+<div id="imgbg">
+    <img id="icon" src="icon.jpg" />
+    <h5 id="chengxuyuan" align="center">iOS程序猿</h5>
+    <h1 id="titleH" align="center">一览众山小<h1>
+ </div>
 </header>
 <p>Hello world.</p>
 </body>
