@@ -35,7 +35,7 @@
 	line-height:120px;
 	color:red;
 	}
-#content {width:980px; height:550px; background:gray; margin:10px auto; padding:10px}
+#content {width:980px; height:550px; background:white; margin:10px auto; padding:10px}
 #titleul {width:960px; height:40px; background:#ccc; padding:0; margin-top:0}
 #titleul li {float:left; width:176px; height:40px;line-height:40px}
 
